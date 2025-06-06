@@ -4,11 +4,11 @@
 import Foundation
 
 @MainActor
-class UtilityMethodsDate: NSObject {
+public class UtilityMethodsDate: NSObject {
     
     // MARK: - Change Date Format
     //for displaying in local
-    class public func changeDateFormat(date:String, dateFormat:String, getFormat:String) -> String {
+    public class func changeDateFormat(date:String, dateFormat:String, getFormat:String) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = dateFormat
         let date = (dateFormatter.date(from: date) ?? nil) ?? Date()
