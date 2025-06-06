@@ -22,5 +22,7 @@ let package = Package(
             name: "UtilityMethodsTests",
             dependencies: ["UtilityMethods"]
         ),
-    ]
+    ],
+    swiftLanguageModes: [.v5]
+
 )
