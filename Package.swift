@@ -22,6 +22,5 @@ let package = Package(
             name: "UtilityMethodsTests",
             dependencies: ["UtilityMethods"]
         ),
-    ],
-
+    ]
 )
